@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -5,29 +7,57 @@
 }
 
 :root {
+  --backgroundFundo: #9f9f9f;
   --backgroundBranco: #fbfbfb;
   --backgroundPreto: #08070b;
+  --cizaEscuro: #6c706f;
+  --cinzaClaro: #97ab9f88;
 }
 
 body {
-  background-color: var(--backgroundBranco);
+  background-color: var(--backgroundFundo);
+  font-family: "Montserrat", sans-serif;
+}
+
+.celular {
+  background-color: var(--backgroundPreto);
+  width: 265px;
+  height: 505px;
+  margin: auto;
+  margin-top: 70px;
+  padding-top: 25px;
+  border-radius: 25px;
+}
+
+.altoFalante {
+  background-color: #232225c4;
+  width: 50px;
+  height: 10px;
+  margin: auto;
+  margin-top: -13px;
+  margin-bottom: 10px;
+  border-radius: 50px;
 }
 
 .fundo {
+  background-color: var(--backgroundBranco);
   width: 250px;
   height: 450px;
   margin: auto;
-  margin-top: 90px;
-  background-color: blue;
+  border-radius: 25px;
 }
 
 .calculadora {
   padding-top: 70px;
+  margin-left: 5px;
 }
 
 #resumo {
   width: 240px;
   height: 20px;
+  margin-bottom: 20px;
+  margin-top: -30px;
+  padding-right: 5px;
   font-size: 15px;
   background-color: ;
   text-align: right;
@@ -36,24 +66,63 @@ body {
 #resultado {
   width: 240px;
   height: 40px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding-right: 5px;
   font-size: 34px;
   background-color: ;
   text-align: right;
 }
 
+.divisoria {
+  background-color: var(--cinzaClaro);
+  width: 180px;
+  height: 1px;
+  border-radius: 50px;
+  margin: auto;
+  margin-bottom: 5px;
+}
+
 .botao {
-  width: 60px;
-  height: 60px;
+  font-family: "Montserrat", sans-serif;
+  background-color: #0000;
+  width: 50px;
+  height: 50px;
+  margin: 4px;
   border-radius: 20px;
   border: none;
   cursor: pointer;
   font-size: 18px;
+  transition: 0.3s;
+}
+
+.botao:hover {
+  background-color: rgba(0, 0, 0, 0.11);
+}
+
+#backspace {
+  background-color: yellow;
+}
+
+#botaoEscuro {
+  background-color: var(--cinzaClaro);
+  transition: 0.3s;
+}
+
+#botaoEscuro:hover {
+  background-color: #97ab9fbe;
 }
 
 #iqual {
-  height: 120px;
+  height: 110px;
+  background-color: var(--cinzaClaro);
+  transition: 0.3s;
+}
+
+#iqual:hover {
+  background-color: #97ab9fbe;
 }
 
 #zero {
-  width: 120px;
+  width: 110px;
 }
