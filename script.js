@@ -5,6 +5,8 @@ function insert(num){
 
 function clean() {
   document.getElementById('resultado').innerHTML = ""
+  document.getElementById('resumo').innerHTML = ""
+
 }
 
 function back() {
@@ -16,5 +18,6 @@ function calcular() {
   let resultado = document.getElementById('resultado').innerHTML
   if(resultado) {
     document.getElementById('resultado').innerHTML = eval(resultado)
+    document.getElementById('resumo').innerHTML = resultado + "="
   }
 } 
