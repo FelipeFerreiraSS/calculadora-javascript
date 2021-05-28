@@ -15,7 +15,7 @@
 }
 
 body {
-  background-color: var(--backgroundFundo);
+  background: rgb(218, 209, 209);
   font-family: "Montserrat", sans-serif;
 }
 
@@ -30,7 +30,7 @@ body {
 }
 
 .altoFalante {
-  background-color: #232225c4;
+  background-color: #3c3c3dc4;
   width: 50px;
   height: 10px;
   margin: auto;
@@ -52,25 +52,34 @@ body {
   margin-left: 5px;
 }
 
+.status {
+  font-size: 12px;
+  margin-top: -68px;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 #resumo {
   width: 240px;
   height: 20px;
   margin-bottom: 20px;
-  margin-top: -30px;
+  margin-top: 20px;
   padding-right: 5px;
   font-size: 15px;
-  background-color: ;
   text-align: right;
 }
 
 #resultado {
   width: 240px;
   height: 40px;
+  color: #42a03a;
   margin-bottom: 20px;
   margin-top: 20px;
   padding-right: 5px;
   font-size: 34px;
-  background-color: ;
   text-align: right;
 }
 
