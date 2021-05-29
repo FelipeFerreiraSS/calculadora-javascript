@@ -1,3 +1,9 @@
+var hora = document.getElementById('hora')
+var data = new Date()
+var horas = data.getHours()
+var minutos = data.getMinutes()
+hora.innerHTML = `${horas} : ${minutos}`
+
 function insert(num){
   let numero = document.getElementById('resultado').innerHTML
   document.getElementById('resultado').innerHTML = numero + num
