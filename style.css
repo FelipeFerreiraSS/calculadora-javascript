@@ -153,20 +153,16 @@ body {
   }
 
   .fundo {
-    height: 1000px;
-    width: 410px;
-    margin-top: -92px;
+    height: 720px;
+    width: 405px;
+    margin-top: -96px;
     margin-left: -71px;
   }
-
-  .calculadora {
-  }
-
   .botao {
-    width: 85px;
-    margin-top: 30px;
-    height: 85px;
-    font-size: 40px;
+    width: 70px;
+    margin-top: 12px;
+    height: 70px;
+    font-size: 37px;
   }
 
   .divisoria {
@@ -175,7 +171,7 @@ body {
 
   #resumo {
     width: 370px;
-    margin-top: 156px;
+    margin-top: 9px;
     font-size: 25px;
   }
 
@@ -187,10 +183,14 @@ body {
   }
 
   #iqual {
-    height: 200px;
+    height: 180px;
   }
 
   #zero {
-    width: 200px;
+    width: 180px;
+  }
+
+  table {
+    margin-left: 10px;
   }
 }
