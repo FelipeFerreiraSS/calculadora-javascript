@@ -135,3 +135,62 @@ body {
 #zero {
   width: 110px;
 }
+
+@media only screen and (max-width: 425px) {
+  .celular {
+    background-color: rgb(218, 209, 209);
+  }
+
+  .altoFalante {
+    background-color: rgb(218, 209, 209);
+  }
+  .status {
+    display: none;
+  }
+
+  .calculadora {
+    padding-top: 17px;
+  }
+
+  .fundo {
+    height: 1000px;
+    width: 410px;
+    margin-top: -92px;
+    margin-left: -71px;
+  }
+
+  .calculadora {
+  }
+
+  .botao {
+    width: 85px;
+    margin-top: 30px;
+    height: 85px;
+    font-size: 40px;
+  }
+
+  .divisoria {
+    width: 280px;
+  }
+
+  #resumo {
+    width: 370px;
+    margin-top: 156px;
+    font-size: 25px;
+  }
+
+  #resultado {
+    width: 370px;
+    font-size: 80px;
+    margin-bottom: 91px;
+    margin-top: 50px;
+  }
+
+  #iqual {
+    height: 200px;
+  }
+
+  #zero {
+    width: 200px;
+  }
+}
